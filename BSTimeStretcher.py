@@ -63,10 +63,10 @@ for dif in ("Easy","Normal","Hard","Expert","ExpertPlus"):
         try:
             while True:
                 if so:
-                    if leastvalue([data_list.index("_time",offseti) - offseti,data_list.index("_duration",offseti) - offseti]) == data_list.index("_time",offseti):
+                    if leastvalue([data_list.index("_time",offseti),data_list.index("_duration",offseti)]) == data_list.index("_time",offseti):
                         offseti = data_list.index("_time",offseti) + 1
                         data_list[offseti] = ":" + str(float(popinstring(data_list[offseti],[0,len(data_list[offseti]) - 1])) * sf) + ","
-                    elif leastvalue([data_list.index("_time",offseti) - offseti,data_list.index("_duration",offseti) - offseti]):
+                    elif leastvalue([data_list.index("_time",offseti),data_list.index("_duration",offseti)]) == data_list.index("_duration",offseti):
                         offseti = data_list.index("_duration",offseti) + 1
                         data_list[offseti] = ":" + str(float(popinstring(data_list[offseti],[0,len(data_list[offseti]) - 1])) * sf) + ","
                 elif not so:
