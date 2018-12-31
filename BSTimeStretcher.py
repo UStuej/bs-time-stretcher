@@ -53,10 +53,10 @@ for dif in ("Easy","Normal","Hard","Expert","ExpertPlus"):
         so = None
         if dif == "ExpertPlus":
             sf = float(popinstring(data_list[6],[0,len(data_list[6]) - 1])) / float(input("Please provide old BPM for Expert+ difficulty:\t"))
-            so = clynb(input("Do you want to stretch obstacles for Expert+ difficulty? (y/n):\t"))
+            so = clynb(input("Do you want to stretch obstacles for Expert+ difficulty? (Obstacles will still be moved) (y/n):\t"))
         else:
             sf = float(popinstring(data_list[6],[0,len(data_list[6]) - 1])) / float(input("Please provide old BPM for "+dif+" difficulty:\t"))
-            so = clynb(input("Do you want to stretch obstacles for "+dif+" difficulty? (y/n):\t"))
+            so = clynb(input("Do you want to stretch obstacles for "+dif+" difficulty? (Obstacles will still be moved) (y/n):\t"))
         final_data_tw = str()
         offseti = 18
         
