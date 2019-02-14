@@ -1,6 +1,6 @@
 # bs-time-stretcher
 
-This program stretches the space of notes and events and (can) stretch the length of obstacles, if you change the BPM (note:  the BPM that the program uses is the one in the actual level file (i.e. Easy.json, Normal.json, Hard.json, Expert.json, and ExpertPlus.json)).
+This program stretches the space of notes and events and (can) stretch the length of obstacles, if you change the BPM (note:  the BPM that the program uses is the one in the actual level file, i.e. Easy.json, Normal.json, Hard.json, Expert.json, and ExpertPlus.json).
 
 Installing the program:
 
